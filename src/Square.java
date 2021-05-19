@@ -23,7 +23,7 @@ class Cube implements Runnable {
     @Override
     public void run() {
         System.out.println("New thread " + x + " cube of " + x + " is : " + (x * x * x));
-    };
+    }
 }
 
 class MainThread extends Thread {
