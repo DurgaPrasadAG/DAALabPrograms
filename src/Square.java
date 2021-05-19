@@ -20,7 +20,7 @@ class Cube implements Runnable {
         this.x = x;
     }
 
-    @Ove
+    @Override
     public void run() {
         System.out.println("New thread " + x + " cube of " + x + " is : " + (x * x * x));
     };
