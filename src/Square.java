@@ -1,22 +1,22 @@
 import java.util.Random;
 
 class Square implements Runnable {
-        int x;
+    int x;
 
-        Square(int x) {
-            this.x = x;
-        }
+    Square(int x) {
+        this.x = x;
+    }
 
-        @Override
-        public void run() {
-            System.out.println("New thread " + x + " Square of " + x + " is : " + (x * x));
-        }
+    @Override
+    public void run() {
+        System.out.println("New thread " + x + " Square of " + x + " is : " + (x * x));
+    }
 }
 
 class Cube implements Runnable {
     int x;
 
-    Cube(int x)  {
+    Cube(int x) {
         this.x = x;
     }
 
