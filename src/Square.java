@@ -18,7 +18,7 @@ class Cube implements Runnable {
 
     Cube(int x) {
         this.x = x;
-    }
+    };
 
     @Override
     public void run() {
